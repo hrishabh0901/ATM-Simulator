@@ -14,8 +14,6 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception{
-
-        System.out.println("start");
         Parent root = FXMLLoader.load(getClass().getResource("Fxml/LoginPage.fxml"));
         //root.getStylesheets().add("style.css");
         primaryStage.setTitle("Hello World");
@@ -33,9 +31,6 @@ public class Main extends Application {
 
 
     public static void main(String[] args) {
-
-        System.out.println("main");
-
         launch(args);
     }
 }
