@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="519.0" style="-fx-background-color: #ff7043;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fx:id="imgid" fitHeight="120.0" fitWidth="143.0" layoutX="362.0" layoutY="82.0" pickOnBounds="true" smooth="false" />
+      <Text fill="#eee8e8" layoutX="23.0" layoutY="108.0" smooth="false" strokeType="OUTSIDE" strokeWidth="0.0" text="Account ID" wrappingWidth="106.7294921875">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Text>
+      <Text fill="#fcf2f2" layoutX="51.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ACCOUNT DETAIL" textAlignment="CENTER" wrappingWidth="441.7294921875">
+         <font>
+            <Font name="DejaVu Serif Condensed Bold" size="34.0" />
+         </font>
+      </Text>
+      <Label fx:id="AccountId" alignment="CENTER" contentDisplay="CENTER" layoutX="185.0" layoutY="92.0" prefHeight="16.0" prefWidth="136.0" style="-fx-background-color: white; -fx-background-radius: 22;" textAlignment="CENTER" textFill="#ff7043" wrapText="true">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Text fill="#eee8e8" layoutX="23.0" layoutY="147.0" smooth="false" strokeType="OUTSIDE" strokeWidth="0.0" text="Name" wrappingWidth="106.7294921875">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Text>
+      <Label fx:id="Name" alignment="CENTER" contentDisplay="CENTER" layoutX="185.0" layoutY="132.0" prefHeight="16.0" prefWidth="136.0" style="-fx-background-color: white; -fx-background-radius: 22;" textAlignment="CENTER" textFill="#ff7043" wrapText="true">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Text fill="#eee8e8" layoutX="23.0" layoutY="184.0" smooth="false" strokeType="OUTSIDE" strokeWidth="0.0" text="Current Balance" wrappingWidth="157.7294921875">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Text>
+      <Label fx:id="CurrentBalance" alignment="CENTER" contentDisplay="CENTER" layoutX="185.0" layoutY="169.0" prefHeight="16.0" prefWidth="136.0" style="-fx-background-color: white; -fx-background-radius: 22;" textAlignment="CENTER" textFill="#ff7043" wrapText="true">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Text fill="#eee8e8" layoutX="23.0" layoutY="217.0" smooth="false" strokeType="OUTSIDE" strokeWidth="0.0" text="Aadhar Number" wrappingWidth="149.7294921875">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Text>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="185.0" layoutY="202.0" prefHeight="16.0" prefWidth="136.0" style="-fx-background-color: white; -fx-background-radius: 22;" textAlignment="CENTER" textFill="#ff7043" wrapText="true">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Text fill="#eee8e8" layoutX="23.0" layoutY="256.0" smooth="false" strokeType="OUTSIDE" strokeWidth="0.0" text="Address" wrappingWidth="149.7294921875">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Text>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="185.0" layoutY="240.0" prefHeight="20.0" prefWidth="316.0" style="-fx-background-color: white; -fx-background-radius: 22;" textAlignment="CENTER" textFill="#ff7043" wrapText="true">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Button fx:id="closeButton" layoutX="232.0" layoutY="333.0" mnemonicParsing="false" onAction="#handleCloseButtonAction" style="-fx-background-color: #fbe9e7; -fx-border-radius: 22;" text="Exit" />
+   </children>
+</AnchorPane>

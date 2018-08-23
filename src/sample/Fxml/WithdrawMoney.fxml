@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="300.0" prefWidth="500.0" style="-fx-background-color: #2e7d32;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <children>
+        <AnchorPane layoutX="240.0" layoutY="17.0" prefHeight="267.0" prefWidth="246.0" style="-fx-background-color: white; -fx-background-radius: 22;">
+            <children>
+                <TextField fx:id="WithdrawAmount" layoutX="20.0" layoutY="115.0" prefHeight="28.0" prefWidth="212.0" promptText="Enter Amount" style="-fx-border-radius: 22; -fx-background-radius: 22; -fx-border-color: #2e7d32;" />
+                <Label alignment="CENTER" contentDisplay="CENTER" layoutX="66.0" layoutY="79.0" prefHeight="23.0" prefWidth="121.0" text="Amount" textFill="#2e7d32">
+                    <font>
+                        <Font size="16.0" />
+                    </font></Label>
+                <Button layoutX="144.0" layoutY="165.0" mnemonicParsing="false" onAction="#Withdraw" style="-fx-background-color: #2e7d32;" text="Withdraw" textFill="#f4eaf8" />
+            <Label fx:id="Error" layoutX="20.0" layoutY="230.0" prefHeight="26.0" prefWidth="212.0" textFill="#d31111" />
+            <Button fx:id="closeButton" layoutX="26.0" layoutY="165.0" mnemonicParsing="false" onAction="#handleCloseButtonAction" style="-fx-background-color: #2e7d32;" text="Exit" textFill="#f4eaf8" />
+            </children>
+        </AnchorPane>
+        <Label alignment="CENTER" contentDisplay="TOP" layoutX="5.0" layoutY="29.0" prefHeight="60.0" prefWidth="232.0" text="Indian to Every Banker" textAlignment="RIGHT" textFill="#f5eaea" textOverrun="CLIP">
+            <font>
+                <Font name="DejaVu Sans Condensed Bold" size="16.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>
