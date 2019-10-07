@@ -30,5 +30,10 @@ public class Admin {
         list[3] = new User("Hrishabh4", 4, "4", 5500);
         AccountList.add(4);
         map.put(4, list[3]);
+        
+        
+        list[4] = new User("Animesh", 5, "5", 6500);
+        AccountList.add(5);
+        map.put(5, list[4]);
     }
 }
